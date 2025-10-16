@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/visits.css">
     <title>World of History - Visit Us</title>
 </head>
 <body> 
     <header>  
-        <h1>World of History Museum</h1>
-        <nav> 
-            <a href="index.html">Home</a> 
-            <a href="exhibits.html">Exhibits</a> 
-            <a href="visits.html">Visit</a>
-        </nav>  
+        <header class="original-header">  
+            <h1 class="world-title">World of History Museum</h1>
+            <nav class="tabs-home"> 
+                <a href="index.html">Home</a> 
+                <a href="exhibits.html">Exhibits</a> 
+                <a href="visits.html">Visit</a>
+            </nav>  
     </header>  
 
     <main>
-        <section>
-            <h2>Buy Tickets</h2>
-            <!-- Placeholder for booking tour form or button --> 
-             <form action="">   
+        <section> 
+            <fieldset>
+           <legend><h2>Buy Tickets</h2></legend> 
+            <!-- Placeholder for booking tour form or button -->  
+             <fieldset></fieldset>
+             <form action="" method="post">   
                 
                 <label for="buy-firstname">First Name</label>  
                 <input type="text">  
@@ -34,8 +38,10 @@
                 <option value="victorians">Victorians</option>
                 <option value="egyptians">Egyptians</option>
                 <option value="romans">Romans</option>
-               <option value="greeks">Greeks</option> 
-            </select> 
+               <option value="greeks">Greeks</option>  
+               <input type="submit" value="pay now">
+            </select>  
+        </fieldset>
 
                 
             </form>
@@ -43,28 +49,43 @@
 
         
 
-        <section> 
+        <section>  
             <p>Make your visit to the World of History Museum truly unforgettable by registering your interest in staying the night, booking the museum for special events, or arranging a private tour. Whether you want an immersive overnight experience, a unique venue for a corporate event or celebration, or a guided tour tailored to your group, we offer flexible options to suit your needs. Complete our registration form to express your interest, and our team will contact you with availability, pricing, and personalized recommendations to create a memorable and engaging experience for you and your guests.</p>
-            <h2>Register Your interest</h2>
+             <fieldset>
+            <legend><h2>Register Your interest</h2></legend>
             <!-- register your interest for as previous structure had too many forms--> 
             <form action="">  
-                <label for=""></label> 
+                <label for="register-firstname">First Name</label> 
                 <input type="text">  
-                <label for=""></label> 
+                <label for="register-secondname">Surname</label> 
                 <input type="text">  
-                <label for=""></label> 
+                <label for="register-email">Email</label> 
                 <input type="text">  
-                <label for=""></label> 
+                <label for="register-event">Event</label> 
                 <input type="text">  
-        </section>
+        </section> 
+    </fieldset>
 
        
 
-        <section>
-            <h2>Contact & Newsletter</h2>
-            <!-- Placeholder for contact form and newsletter signup -->
-        </section>
-    </main> 
+        <section> 
+            <fieldset>
+            <legend><h2>Contact & Newsletter</h2></legend>
+            <!-- Placeholder for contact form and newsletter signup --> 
+             <p>To hear more about the museum sign up to our newsletter which includes:</p> 
+             <ul>  
+                <li>upcoming exhibits</li> 
+                <li>free workshops</li> 
+                <li>behind the scenes content of the museum</li>  
+                <li>weekly columns from our wonderful curators </li>
+                <li>chance to win amazing prizes</li> 
+            </ul>   
+            <label for="news-email">Email</label> 
+            <input type="text">
+        </section> 
+    </fieldset>
+    </main>  
+    <footer>
     <section> 
         <div class="visitor-information">
         <h2>Visitor Information</h2>
@@ -82,7 +103,8 @@
       
     <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
     <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
-    <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener">Twitter</a> 
 </footer>
+
 </body>
 </html>

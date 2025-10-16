@@ -1,0 +1,23 @@
+.original-header{background-color:black;} 
+.world-title{color:white;} 
+.tabs-home {
+    text-align: center;font-size: 30px;color: white;
+  }   
+   
+  .image-gallery img {
+    display: block; margin: 20px auto; max-width: 100%;height: auto; } 
+    /* had issues with making images into column original code .image-gallery img {display:block;margin:20px;max-width:100%;height: auto;} */
+    
+
+  .bronze-age {background-color:brown;color: white;}
+
+
+
+
+
+
+
+
+
+  footer{background-color:black;color: white;}
+  
